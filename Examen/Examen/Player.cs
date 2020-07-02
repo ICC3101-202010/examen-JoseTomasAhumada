@@ -19,5 +19,21 @@ namespace Examen
             this.number = number;
             this.position = position;
         }
+        public int GetAttack()
+        {
+            return attack;
+        }
+        public int GetDefense()
+        {
+            return defense;
+        }
+        public string GetNumber()
+        {
+            return number;
+        }
+        public string GetPosition()
+        {
+            return position;
+        }
     }
 }

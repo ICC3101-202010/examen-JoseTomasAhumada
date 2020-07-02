@@ -13,5 +13,13 @@ namespace Examen
         {
             this.tactic = tactic;
         }
+        public int GetTactic()
+        {
+            return tactic;
+        }
+        public void ChangePlayer()
+        {
+
+        }
     }
 }

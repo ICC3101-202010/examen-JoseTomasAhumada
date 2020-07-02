@@ -13,5 +13,17 @@ namespace Examen
         {
             this.experience = experience;
         }
+        public int GetExperience()
+        {
+            return experience;
+        }
+        public void Evaluate()
+        {
+
+        }
+        public void Heal()
+        {
+
+        }
     }
 }

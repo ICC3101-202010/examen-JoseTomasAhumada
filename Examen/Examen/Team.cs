@@ -29,6 +29,14 @@ namespace Examen
         {
             return type;
         }
+        public List<Player> GetPlayers()
+        {
+            return players;
+        }
+        public void AddPlayer(Player player)
+        {
+            players.Add(player);
+        }
         public bool CheckNation() //Verifica si la nacionalidad de los integrantes corresponde a la del equipo nacional al que pertenecen.
         {
             string nation = "";

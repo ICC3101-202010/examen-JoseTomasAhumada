@@ -26,7 +26,7 @@ namespace Examen
             Team t = new Team("team1", "chilena", l, coach, medic);
             Team t2 = new Team("team2", "argentina", l2, coach2, medic2);
             Match match = new Match(t, t2, 96, "liga");
-
+            
             p.InjuredPlayer += coach.OnInjuredPlayer;
             p.InjuredPlayer += match.OnInjuredPlayer;
             Console.ReadKey();

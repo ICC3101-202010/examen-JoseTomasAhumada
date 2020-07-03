@@ -17,9 +17,9 @@ namespace Examen
         {
             return tactic;
         }
-        public void ChangePlayer()
+        public void OnInjuredPlayer(object source, EventArgs e)
         {
-
+            Console.WriteLine("El jugador lesionado se cambió por otro jugador de la banca.");
         }
     }
 }

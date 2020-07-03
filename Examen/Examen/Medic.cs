@@ -17,13 +17,19 @@ namespace Examen
         {
             return experience;
         }
-        public void Evaluate()
+        public void Evaluate(Player player)
         {
-
+            if (player.GetLession() == true)
+            {
+                Console.WriteLine("El jugador " + player.GetName() + " está siendo evaluado por el médico.");
+            }
         }
-        public void Heal()
+        public void Heal(Player player)
         {
-
+            if (player.GetLession() == true)
+            {
+                Console.WriteLine("El jugador " + player.GetName() + " está siendo curado por el médico.");
+            }
         }
     }
 }

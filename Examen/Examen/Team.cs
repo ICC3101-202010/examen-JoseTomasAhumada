@@ -21,7 +21,15 @@ namespace Examen
             this.coach = coach;
             this.medic = medic;
         }
-        public bool CheckNation()
+        public string GetName()
+        {
+            return name;
+        }
+        public string Type()
+        {
+            return type;
+        }
+        public bool CheckNation() //Verifica si la nacionalidad de los integrantes corresponde a la del equipo nacional al que pertenecen.
         {
             string nation = "";
             int i = 0;
@@ -48,7 +56,7 @@ namespace Examen
                 return true;
             }
         }
-        public void TeamInformation()
+        public void TeamInformation() //Retorna la información del equipo.
         {
             Console.WriteLine("INFORMACIÓN DEL EQUIPO:");
             Console.WriteLine("\nNombre del equipo: " + name);

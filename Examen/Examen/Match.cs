@@ -41,7 +41,7 @@ namespace Examen
         }
         public void OnInjuredPlayer(object source, EventArgs e)
         {
-
+            Console.WriteLine("El jugador lesionado ha sido cambiado.");
         }
     }
 }
